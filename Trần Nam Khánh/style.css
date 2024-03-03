@@ -1,0 +1,190 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #dedede;
+}
+
+.header {
+  padding: 15px;
+  text-align: center;
+  background: #ffffff;
+}
+
+.header h1 {
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+}
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+ 
+}
+.inf{
+  margin-left: 10px;
+}
+h2{
+  color:#ffffff;
+}
+.h2{
+  background-color: #292a29;
+  padding: 1px;
+  text-align: center;
+}
+span{
+  margin-top: 10px;
+}
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+img{
+  width: 100%;
+  
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-top: 20px;
+  height: 450px;
+}
+
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ffffff;
+  margin-top: 20px;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+
+  
+  button {
+    background-color: #000000; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+    
+  }
+  
+  button:hover {
+    background-color: rgb(158, 158, 158);
+  }
+  .container{
+    clear: both;
+    display:block;
+    margin-bottom: 20px;
+    margin-left: 0%;
+  }
+  ul.social-network { 
+    list-style: none;   
+    display: inline;    
+    margin-left:0 !important;   
+    padding: 0;
+    }
+     
+    ul.social-network li {  
+    display: inline;    
+    margin: 0 5px;
+    }
+     
+     
+    .social-network a.iconPinterest:hover { 
+    background-color: #FF0000;
+    }
+     
+    .social-network a.icoFacebook:hover {   
+    background-color:#FF0000;
+    }
+     
+    .social-network a.icoTwitter:hover {    
+    background-color:#FF0000;
+    }
+     
+    .social-network a.icoGoogle:hover { 
+    background-color:#FF0000;
+    }
+     
+    .social-network a.iconYoutube:hover {   
+    background-color:#FF0000;
+    }
+     
+    .social-network a.iconPinterest:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,.social-network a.icoGoogle:hover i, .social-network a.iconYoutube:hover i {   color:#fff;}
+     
+    .social-network a.iconPinterest{    background-color:#F56505;}  
+    .social-network a.icoFacebook  {    background-color:#3B5998;} 
+    .social-network a.icoTwitter  { background-color:#33ccff;}
+    .social-network a.icoGoogle  {  background-color:#BD3518;}
+    .social-network a.iconYoutube  {    background-color:#007bb7;}
+     
+    a.socialIcon:hover, .socialHoverClass { color:#44BCDD;}
+     
+    .social-circle li a {   
+    display:inline-block;   
+    position:relative;  
+    margin:0 auto 0 auto;   
+    -moz-border-radius:50%; 
+    -webkit-border-radius:50%;  
+    border-radius:50%;  
+    text-align:center;  
+    width: 40px;    
+    height: 40px;   
+    font-size:16px;
+    }
+     
+    .social-circle li i {   
+    margin:0;   
+    line-height:40px;   
+    text-align: center;
+    }
+     
+     
+    .social-circle li a:hover i, .triggeredHover {  
+    -moz-transform: rotate(360deg); 
+    -webkit-transform: rotate(360deg);  
+    -ms--transform: rotate(360deg); 
+    transform: rotate(360deg);  
+    -webkit-transition: all 0.2s;   
+    -moz-transition: all 0.2s;  
+    -o-transition: all 0.2s;    
+    -ms-transition: all 0.2s;   
+    transition: all 0.2s;
+    }
+     
+    .social-circle i {  
+    color: #fff;    
+    -webkit-transition: all 0.8s;   
+    -moz-transition: all 0.8s;  
+    -o-transition: all 0.8s;    
+    -ms-transition: all 0.8s;   
+    transition: all 0.8s;
+    }
