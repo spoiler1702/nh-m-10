@@ -1,0 +1,66 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:beige;
+    line-height: 1.3;
+    text-align: center;
+    font-size: 25px;
+}
+ 
+header{
+    color: red;
+    margin-bottom: 5%;
+    
+}
+
+.card_1,.card_2,.card_3,.card_4,.card_5{
+    width: 200px;
+    height: 200px;
+    background-color:black;
+    border-radius: 50%;
+    border: 3px solid black;
+    
+    overflow: hidden;
+    margin: auto;
+    
+}
+.card_img1,.card_img5{
+    margin: -10px auto;
+}
+
+img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    
+}
+.khung1,.khung2,.khung3,.khung4,.khung5{
+    float: left;
+    text-align: center;
+    margin-left: 2%;
+    border: 4px;
+    width: 17.6%;
+    height: 400px;
+    background-color: beige;
+    padding: 2px;
+    
+}
+
+.o1,.o2,.o3,.o4,.o5{
+    border: 2px solid black;
+    width: 250px;
+    height: 40px;
+    background-color : greenyellow;
+    margin: 15px auto;
+    text-align: center;
+    padding-top: 10px;
+}
+a{
+    margin-top: auto;
+    color: red;
+    
+    
+}
+
+
+
