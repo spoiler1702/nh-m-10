@@ -24,7 +24,10 @@ header{
     margin: auto;
     
 }
-.card_img1,.card_img5{
+.card_img4{
+    margin: -60px 0px 40px 0px;
+}
+.card_img1{
     margin: -10px auto;
 }
 
