@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới Thiệu Bản Thân</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .profile-img {
+            display: block;
+            margin: 0 auto;
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="profile-img" src="C:\Users\quant\Pictures\Screenshots\Ảnh 2024-03-04 185534.png" alt="Ngọc An">
+        <h1>Ngọc An</h1>
+        <h2>Web Developer</h2>
+        <p>Xin chào, tôi là một hà phát triển web tại Thanh hóa. Tôi chuyên về phát triển giao diện người dùng bằng HTML, CSS và JavaScript. Tôi đam mê tạo ra các trải nghiệm web đáp ứng và thân thiện với người dùng. Trong thời gian rảnh rỗi, tôi thích học các công nghệ mới và thử nghiệm các xu hướng thiết kế khác nhau.</p>
+        <p>Liên hệ với tôi qua email: <a href="mailto:anngocdo2003@gmail.com">anngocdo2003@gmail.com</a>.</p>
+    </div>
+</body>
+</html>
